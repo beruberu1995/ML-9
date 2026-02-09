@@ -65,7 +65,7 @@ st.markdown("""
 @st.cache_resource
 def load_model():
     """Load the trained Iris classification model"""
-    with open('iris_model_pickle.pkl', 'rb') as f:
+    with open('Iris_model_pickle.pkl', 'rb') as f:
         model = joblib.load(f)
     return model
 
